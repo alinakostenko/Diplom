@@ -1,6 +1,7 @@
 @import "normalize";
 @import "font";
 @import "mixin";
+@import "modaal";
 
 * {
   box-sizing: border-box;
@@ -305,26 +306,6 @@ section.our_pets {
       }
     }
   }
-
-  .our_pets__button {
-    padding: 0 47px;
-    display: block;
-    margin: 0 auto;
-    color: #292929;
-    font-family: Georgia;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 57px;
-    letter-spacing: 1.02px;
-    border-radius: 26px;
-    border: 2px solid #f1cdb3;
-    background-color: #f1cdb3;
-
-    &:hover {
-      border: 2px solid #f1cdb3;
-      background-color: #fff;
-    }
-  }
 }
 
 section.help {
@@ -351,7 +332,7 @@ section.help {
         margin-bottom: 40px;
         height: 70px;
         width: 70px;
-        transition: transform 1s;
+        transition: transform 2s;
       }
 
       p {
@@ -394,6 +375,7 @@ section.saved {
   .isotop {
     max-width: 1300px;
     margin: 0 auto;
+
 
     img {
       border: 10px solid #f6f6f6;
@@ -503,31 +485,16 @@ footer {
         font-family: "Times New Roman PSMT";
         font-size: 20px;
         font-weight: 400;
-        line-height: 45px;
+        line-height: 42px;
         letter-spacing: 1.2px;
 
         svg {
           margin-right: 15px;
+          width: 80px;
         }
-
-        //p {
-        //  margin-bottom: 10px;;
-        //}
 
         &:last-child {
           margin-top: 22px;
-          margin-bottom: 42px;
-        }
-      }
-
-      &:last-child {
-        max-width: 320px;
-        h2 {
-          margin-bottom: 30px;
-        }
-
-        p {
-          line-height: 25px;
         }
       }
     }
@@ -535,11 +502,11 @@ footer {
 }
 
 
-
-
-
 @media (max-width: 1200px) {
   .about_wrapper {
     flex-wrap: wrap;
   }
 }
+
+
+
